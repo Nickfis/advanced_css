@@ -154,3 +154,10 @@ body {
   font-size: 16px;
   line-height: 1.7;
   color: #777; }
+
+.row {
+  max-width: 114rem;
+  background-color: #eee;
+  margin: 0 auto; }
+  .row:not(:last-child) {
+    margin-bottom: 8rem; }
